@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Resume"
       href: about.html
-    - text: "Plotly Examples"
+    - text: "Plotly"
       href: plotly.html
     - icon: fa-github fa-lg
       href: http://github.com/cz2540/ 

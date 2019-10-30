@@ -3,12 +3,17 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "Resume"
       href: about.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+    - text: "Plotly Examples"
+      href: plotly.html
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/cz2540/ 
+    - icon: fa-envelope fa-lg
+      href: mailto:<cz2540@columbia.edu> 
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/cz249/
+
 output:
   html_document:
-    theme: cerulean
+    theme: simplex

@@ -1,12 +1,42 @@
 ---
-title: "Connie's Website"
-author: "Connie Zhang"
-date: "10/30/2019"
+title: "Resume: Academic and Professional Experience"
 output:
       html_document:
       toc: true
       toc_float: true
       
-
 ---
 
+### <ins> **EDUCATION** </ins> 
+
+*Columbia University, Mailman School of Public Health*  [*September 2018 – Present*]{style="float:right"}  
+MPH in Department of Sociomedical Sciences
+Certificate in Public Health Research Methods
+
+*Cornell University*  [*September 2012 – May 2016*]{style="float:right"}  
+B.A in Biology and Society
+Minors in Health Policy and Nutritional Sciences
+
+### <ins>**RELEVANT WORK EXPERIENCE**</ins> 
+
+**Columbia University Department of Biomedical Informatics** [*Oct '19 - Present*]{style="float:right"}
+Graduate Research Assistant 
+
+**Columbia Business School**  [*Jan '19 – Present*]{style="float:right"}
+External Relations and Development Intern 
+
+**Massachusetts Health Policy Commission** [*June '19 - Aug '19*]{style="float:right"}
+Summer Fellow 
+
+**United States Peace Corps** [*July '16 - July '18*]{style="float:right"}
+Cambodia Health Extension Volunteer 
+
+
+### <ins>**ADDITIONAL SKILLS**</ins>  
+**Computer Skills:** MS Office Suite, Adobe Photoshop
+
+**Programming Skills:** R, SQL, SPSS
+
+**Certifications:** HIPAA certification 
+
+**Additional Languages:** Native Fluency in Mandarin Chinese, Professional Fluency in Khmer

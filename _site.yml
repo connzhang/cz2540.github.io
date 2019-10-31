@@ -9,11 +9,12 @@ navbar:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/cz249/
     - icon: fa-github fa-lg
-      href: http://github.com/cz2540/ 
+      href: http://github.com/connzhang/
     - text: "Resume"
       href: about.html
     - text: "Data Science Plots"
       href: plotly.html
+      
 output:
   html_document:
     theme: simplex

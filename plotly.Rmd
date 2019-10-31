@@ -1,5 +1,5 @@
 ---
-title: "Plotly"
+title: "Data Science Plotly Visuals"
 output:
       html_document:
       toc: true
@@ -17,15 +17,35 @@ library(plotly)
 data("instacart")
 
 insta_data = instacart %>%
-  filter(department == "bakery") %>%
+  filter(department == "beverages") %>%
   mutate(reordered = recode(reordered, "1" = "Yes", "0" = "No"), 
          order_dow = recode(order_dow, "0" = "Sunday", "1" = "Monday", "2" = "Tuesday", 
                              "3" = "Wednesday", "4" = "Thursday", "5" = "Friday", "6" = "Saturday")) %>%
   select (aisle, product_name, order_hour_of_day, order_dow, reordered) 
-insta_data
+
+count = insta_data %>% 
+  group_by(aisle) %>%
+  summarize(reordered = n())
+count
+
+```
+### Bar Chart 
+* Number of times goods from each aisle were reorderd within the beverage department. 
+```{r - bar chart}
+count %>%
+  plot_ly(x = ~aisle, y = ~reordered, color = ~aisle, type = "bar", text = ~aisle) %>%
+  layout(xaxis = list(title = "Aisle Category"),
+         yaxis = list(title = "Total items reordered"))
+
 ```
 
-```{r}
+### Boxplot
+* Number of times goods from each aisle were reorderd within the beverage department. 
 
+```{r - boxplot}
+count %>%
+  plot_ly(x = ~aisle, y = ~reordered, color = ~aisle, type = "box", text = ~aisle) %>%
+  layout(xaxis = list(title = ""),
+         yaxis = list(title = "Total items reordered"))
 
 ```

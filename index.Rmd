@@ -1,9 +1,7 @@
 ---
 title: "Connie Zhang's P8150 Website"
 output:
-      html_document:
-      toc: true 
-      toc_float: true
+      html_document
 ---
 
 <br/>

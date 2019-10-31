@@ -1,10 +1,9 @@
 ---
-title: "Resume: Academic and Professional Experience"
+title: "Academic and Professional Experience"
 output:
       html_document:
       toc: true
       toc_float: true
-      
 ---
 
 ### <ins> **EDUCATION** </ins> 
@@ -33,10 +32,6 @@ Cambodia Health Extension Volunteer
 
 
 ### <ins>**ADDITIONAL SKILLS**</ins>  
-**Computer Skills:** MS Office Suite, Adobe Photoshop
+**Computer, Programming Skills:** MS Office Suite, Adobe Photoshop, R, SQL, SPSS
 
-**Programming Skills:** R, SQL, SPSS
-
-**Certifications:** HIPAA certification 
-
-**Additional Languages:** Native Fluency in Mandarin Chinese, Professional Fluency in Khmer
+**Additional Languages:** Native Fluency in Mandarin Chinese, Professional Fluency in Khmer (Cambodian) 

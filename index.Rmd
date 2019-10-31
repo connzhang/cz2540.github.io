@@ -1,17 +1,17 @@
 ---
-title: "Connie Zhang's Website"
+title: "Connie Zhang's P8150 Website"
 output:
       html_document:
       toc: true
       toc_float: true
 ---
 <br/>
-
-# Welcome to My Career-Building Page! 
-
 <img src="images/IMG_5760.jpeg" style="width:75%">
 
-### This website highlights my academic interests and relevant work experience. 
-
-
-#### The navigation pane will take you to my contact information, resume, linkedin, github, as well as examples of my data science outputs. 
+### Explore the site to find highlights of my academic interests and relevant work experience. 
+#### The navigation pane will take you to my:
+* Contact information
+* Linkedin
+* Github 
+* Resume
+* Data Science graphical outputs

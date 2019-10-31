@@ -3,17 +3,17 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Resume"
-      href: about.html
-    - text: "Plotly"
-      href: plotly.html
-    - icon: fa-github fa-lg
-      href: http://github.com/cz2540/ 
+  
     - icon: fa-envelope fa-lg
       href: mailto:<cz2540@columbia.edu> 
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/cz249/
-
+    - icon: fa-github fa-lg
+      href: http://github.com/cz2540/ 
+    - text: "Resume"
+      href: about.html
+    - text: "Data Science Plots"
+      href: plotly.html
 output:
   html_document:
     theme: simplex

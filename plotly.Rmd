@@ -5,3 +5,27 @@ output:
       toc: true
       toc_float: true
 ---
+
+```{r}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("instacart")
+
+insta_data = instacart %>%
+  filter(department == "bakery") %>%
+  mutate(reordered = recode(reordered, "1" = "Yes", "0" = "No"), 
+         order_dow = recode(order_dow, "0" = "Sunday", "1" = "Monday", "2" = "Tuesday", 
+                             "3" = "Wednesday", "4" = "Thursday", "5" = "Friday", "6" = "Saturday")) %>%
+  select (aisle, product_name, order_hour_of_day, order_dow, reordered) 
+insta_data
+```
+
+```{r}
+
+
+```
